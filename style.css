@@ -1,0 +1,790 @@
+
+/* universe selector */
+*{
+    
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+  background-image: url(b4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color:white;
+    background-blend-mode:screen ;
+}
+
+.background-img{
+    background-image: url(bg2.jpg) ;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    /* z-index: -1;  */
+    
+} 
+
+header img{
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+}
+header nav ul {
+    margin-top: 20px;
+    display: flex;
+    float: right;
+    margin-right: 90px;
+   font-size: 15px;
+}
+header nav ul a{
+    padding: 10px;
+    font-weight: 300;
+color: white;
+}
+header nav ul :hover{
+    color: #ffa500;
+    transform: scale(1.09) rotate(1deg);
+}
+
+header img{
+    margin-left: 80px;
+}
+
+.mainpage-contents{
+    margin: 15em 1px 1px 7em;
+
+}
+.mainpage-contents h1{
+padding: 12px;
+font-size: 80px;
+color: orange;
+font-family: 'Kaushan Script';
+transition:all 1s ;
+cursor: pointer;
+}
+.mainpage-contents p{
+    color: white;
+text-shadow: 1px 1px 3px black;
+    width: 500px;
+padding-bottom: 12px;
+font-family: 'Montserrat';
+ text-transform: capitalize;
+ line-height: 24px;
+ /* text-size-adjust: 2px; */
+}
+.mainpage-contents a{
+    padding: 5px;
+}
+.mainpage-contents button{
+    background-color:#ffa60000;
+    cursor: pointer;
+    color: azure;
+padding:10px 10px;
+border-radius:20px ;
+border: 1px solid rgb(255, 255, 255);
+margin-top: 8px;
+width: 150px;
+}
+.mainpage-contents a button:hover{
+    color: white;
+    background-color:#ffa600dc;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+/* Page 2 */
+.we-serve-h2{
+    margin-top: 12px;
+    text-align: center;
+    color: #3b1610;
+    font-size: 20px;
+    
+   
+}
+
+.we-serve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin:5px 12px 5px 12px;
+}
+.we-serve .img-frist img{
+    width: 350px;
+height: 300px;
+border-radius: 13px;
+border:1px solid orange;
+cursor: pointer;
+margin: 10px;
+filter:  blur(1.5px);
+}
+.we-serve img:hover{
+    filter: grayscale(0);
+    transform: scale(1.03) rotate(1deg);
+    border: 5px solid orange;
+
+}
+
+.we-serve .img-frist h3 {
+color: orange;
+    margin-left: 150px;
+}
+
+.we-serve .img-frist p{
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+font-family: 'Montserrat';
+    margin-left: 50px;
+    width: 350px;
+    padding:5px ;
+       
+
+}
+.we-serve2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 5px 12px 5px 12px;
+}
+.we-serve2 .img-frist img{
+    width: 350px;
+height: 300px;
+border-radius: 13px;
+border:1px solid orange;
+cursor: pointer;
+margin: 10px;
+/* filter:  blur(1.5px); */
+}
+.we-serve2 img:hover{
+    filter: grayscale(0);
+    transform: scale(1.03) rotate(1deg);
+    border:5px solid orange;
+
+}
+
+.we-serve2 .img-frist h3 {
+color: orange;
+    margin-left: 150px;
+}
+
+.we-serve2 .img-frist p{
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+font-family: 'Montserrat';
+    margin-left: 50px;
+    width: 350px;
+    padding:5px ;
+}
+
+
+
+
+/* page-3 */
+
+.about-us{
+    height: 25em;
+    margin: 1px 0px;
+
+}
+.about-us h2{
+    margin: 3em 1px;
+    text-align: center;
+    color: #3b1610;
+    font-size: 20px;
+}
+.about-us img{
+    width: 500px;
+    height: 300px;
+    float: right;
+    margin-right: 6em;
+    border-radius: 18px;
+}
+.about-us .aboutus-p{
+    background-color: rgba(128, 128, 128, 0.040);
+    border-radius: 12px;
+    margin: 60px 50px 20px 50px;
+    border-radius: 12px;
+width: 690px;
+height: 250px;
+}
+.about-us .aboutus-p h3{
+    padding: 12px;
+    color: orange;
+    text-align: center;
+  
+}
+.about-us .aboutus-p p{
+    font-size: 16px;
+    line-height: 30px;
+   padding:12px;
+   margin-left: 30px;
+   text-transform: capitalize;
+   
+}
+.about-us .aboutus-p span{
+    color: orange;
+    padding-left:14em;
+    
+}
+
+
+/* page 4 */
+.contact-us{
+    background-image: url(bg4.jpg);
+    background-size: cover;
+    background-color: rgb(139, 78, 43);
+    background-blend-mode:screen ;
+    display: flex;
+}
+.contact-us-h2 h2{
+    padding: 12px;
+    color: orange;
+    text-align: center;
+}
+.contact-us ul {
+    margin: 12px 1px 1px 110px;
+    width: 700px;
+    padding: 20px;
+}
+.contact-us ul li {
+    padding: 5px;    
+}
+.contact-us ul li i{
+    padding: 5px;    
+}
+.contact-us form {
+    padding: 25px 10px 1px 150px;
+    width: 100%;
+}
+.contact-us form input{
+    padding:10px ;
+    border: 1px solid black;
+    display: block;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.contact-us form .submit input{
+    width: 90px;
+    border: 1px solid white;
+    background-color: #ffa500;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.contact-us form .submit input:hover{
+background-color: transparent;
+box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.315);
+color: orange;
+font-family: 'Montserrat';
+text-transform: capitalize;
+font-weight: 900;
+border: 2px solid white;
+}
+ .map{
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border-top: 5px solid white;
+box-shadow: 0px 0px 102px rgba(0, 0, 0, 0.438);
+}
+
+/* footer page */
+
+
+footer{
+    background-color: #3b1610;
+    padding: 10px 10px 10px 20px;
+    color: white;
+    height: 240px;
+}
+.copyright-info{
+    text-align: center;
+    padding: 4px;
+}
+.footer-lists{
+    display: flex;
+    margin-left: 30px;
+    justify-content: center
+    ;
+}
+footer .list1  h5{
+padding-bottom: 5px;
+}
+footer .list1 ul{
+    padding-right: 10px;
+width: 200px;
+}
+footer .list1 li{
+    padding: 2px;
+}
+footer .list1 ul li a{
+    color: rgb(224, 224, 214);
+    font-size: 13px;
+}
+footer .list1 ul li a:hover{
+    color: white;
+    scale: 5px;
+}
+    footer .list2 ul{
+        margin: 20px 20px 0px 10em;
+        width: 150px;
+    }
+    footer .list2 li{
+        padding: 3px;
+    }
+    footer .list2 ul li a{
+        color: rgb(224, 224, 214);
+        font-size: 15px;
+    }
+    footer .list2 ul li a:hover{
+        color: white;
+        scale: 8px;
+    }
+
+    footer .list3 ul{
+        margin: 0px 20px 0px 5em;
+        width: 300px;
+    }
+    footer .list3 h5{
+        padding: 6px;
+        margin: 0px 20px 0px 6em;
+        width: 300px;
+    }
+    footer .list3 li p{
+        padding: 3px;
+    }
+    footer .list3 ul li p{
+        color: rgb(224, 224, 214);
+        font-size: 13px;
+    }
+    footer .list3 ul li p:hover{
+        color: white;
+        scale: 8px;
+    }
+
+footer .list4{
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top:0;
+}
+footer .list4 ul li{
+    display: inline;
+    padding: 0px 12px 0px 12px;
+
+}
+footer .list4 ul li h5{
+    padding: 5px;
+}
+/* media Scren iphone12Pro width=390 */
+
+    @media  screen and (max-width:390px){
+
+        .background-img{
+            background-image: url(bg2.jpg) ;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 430px;
+            background-size: cover;
+            overflow: hidden;
+            
+        } 
+        header img{
+            position: absolute;
+            top: 60px;
+            left: 31%;
+            cursor: pointer;
+            width: 170px;
+            height: 110px;
+            justify-content: center;
+            align-items: center;
+            /* text-shadow: 1px 2px 23px orange; */
+        }
+        header nav ul {
+            margin-top: 10px;
+            display: flex;
+            
+            margin-right: 30px;
+           font-size: 9px;
+        }
+        header nav ul a{
+            padding: 10px;
+            font-weight: 300;
+        color: white;
+        }
+        header nav ul :hover{
+            color: #ffa500;
+            transform: scale(1.09) rotate(1deg);
+        }
+        
+        header img{
+            margin-left: 10px;
+        }
+
+/* mainpage contents */
+        .mainpage-contents{
+            margin: 10em 1px 1px 2em;
+        
+        }
+        .mainpage-contents h1{
+        padding: 12px;
+        margin-left: 35px;
+        font-size: 40px;
+        color: orange;
+        font-family: 'Kaushan Script';
+        cursor: pointer;
+        }
+        .mainpage-contents p{
+            color: white;
+        text-shadow: 1px 1px 3px black;
+            width: 320px;
+        padding-bottom: 12px;
+        font-family: 'Montserrat';
+         text-transform: capitalize;
+         line-height: 20px;
+         
+         /* text-size-adjust: 2px; */
+        }
+        .mainpage-contents a{
+            padding: 10px;
+        }
+        .mainpage-contents button{
+            background-color:#ffa60000;
+            cursor: pointer;
+            color: azure;
+        padding:10px 10px;
+        border-radius:20px ;
+        border: 1px solid rgb(255, 255, 255);
+        margin-top: 8px;
+        width: 90px;
+        }
+        .mainpage-contents a button:hover{
+            color: white;
+            background-color:#ffa600dc;
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+
+        /* page 2 */
+        
+        .we-serve-h2{
+            margin-top: 5px;
+            text-align: center;
+            color: rgb(255, 136, 0);
+            font-size: 13px;
+        }
+        
+        .we-serve {
+            display: block;
+        }
+        .we-serve .img-frist img{
+            width: 220px;
+        height: 150px;
+        border-radius: 12px;
+        border:1px solid orange;
+        cursor: pointer;
+        margin-left: 16%;
+        align-items: center;
+        }
+        .we-serve .img-frist h3 {
+        color: orange;
+            margin-left: 30%;
+            align-items: center;
+        }
+        
+        .we-serve .img-frist p{
+            text-transform: capitalize;
+            color: rgb(0, 0, 0);
+        font-family: 'Montserrat';
+            margin-left: 10%;
+            width: 280px;
+            padding:5px ;
+            font-size: 13px;
+
+        }
+
+        .we-serve2 {
+            display: block;
+        }
+        .we-serve2 .img-frist img{
+            width: 220px;
+        height: 150px;
+        border-radius: 12px;
+        border:1px solid orange;
+        cursor: pointer;
+        margin-left: 16%;
+        align-items: center;
+        }
+        .we-serve2 .img-frist h3 {
+        color: orange;
+            margin-left: 30%;
+            align-items: center;
+        }
+        
+        .we-serve2 .img-frist p{
+            text-transform: capitalize;
+            color: rgb(0, 0, 0);
+        font-family: 'Montserrat';
+            margin-left: 10%;
+            width: 280px;
+            padding:5px ;
+            font-size: 13px;
+               
+        
+        }
+
+
+        /* page 3 */
+ 
+        .about-us{
+            margin: 1px 0px;
+        
+        }
+        .about-us h2{
+            margin: 2em 1px 2em 1px;
+            text-align: center;
+            color:#3b1610;
+            font-size: 22px;
+        }
+        .about-us img{
+            width: 320px;
+            height: 230px;
+            margin-left: 30em;
+            position: relative;
+            left: 58px;
+            border-radius: 13px;
+
+        }
+        .about-us .aboutus-p{
+            background-color: rgba(128, 128, 128, 0.040);
+            margin: 18em 0px 10em 0px;
+            border-radius: 1px;
+            padding-bottom: 12px;
+            height: 260px;
+            width: 380px;
+        }
+        .about-us .aboutus-p h3{
+            color: orange;
+            padding: 8;
+            width: 400px;
+          
+        }
+        .about-us .aboutus-p p{
+            font-size: 16px;
+            line-height: 25px;
+           padding:8px;
+           margin-left: 8px;
+           text-transform: capitalize;
+           width:380px ;
+        }
+        
+    
+        .about-us .aboutus-p a{
+
+            padding: 20px 15px 10px 1px;
+color: rgb(40, 40, 236);
+            border-radius: 5px;
+            font-weight:500 ;
+        }
+
+        /* contact-us page */
+
+
+        .contact-us{
+            background-image: url(bg4.jpg);
+            background-size: cover;
+            background-color: rgb(139, 78, 43);
+            background-blend-mode:screen ;
+            display: block;
+        }
+        .contact-us-h2 h2{
+            color: orange;
+            text-align: center;
+            position: relative;
+            top: 170px;
+        }
+        .contact-us{
+        position: relative;
+        top: 150px;
+        }
+        .contact-us ul {
+            margin: 12px 1px 1px 10px;
+            width: 380px;
+            padding: 20px;
+        }
+        .contact-us ul li {
+            padding: 5px;    
+        }
+        .contact-us ul li i{
+            padding: 6px;    
+            position: relative;
+            left: 4px;
+        }
+        .contact-us form {
+            padding: 25px 10px 1px 20px;
+            width: 100%;
+        }
+        .contact-us form input{
+            padding:10px ;
+            border: 1px solid black;
+            display: block;
+            border-radius: 8px;
+            width: 355px;
+        }
+        .contact-us form .submit{
+            padding: 0px 0px 9px 0px;
+        }
+        .contact-us form .submit input{
+            width: 90px;
+            border: 1px solid white;
+            background-color: #ffa500;
+            margin-left: 120px;
+            text-transform: capitalize;
+        }
+        .contact-us form .submit input:hover{
+        background-color: transparent;
+        box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.315);
+        color: orange;
+        font-family: 'Montserrat';
+        text-transform: capitalize;
+        font-weight: 900;
+        border: 2px solid white;
+        }
+         .map{
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            border-top: 5px solid white;
+        box-shadow: 0px 0px 102px rgba(0, 0, 0, 0.438);
+        }
+
+/* footer page */
+
+        footer {
+            background-color: #3b1610;
+            color: white;
+            height: 240px;
+            width: 390px;
+            
+            flex-direction: column;
+        
+        }
+        footer .copyright-info{
+            height: 15px;
+        }
+        footer .copyright-info p{
+        width: 360px;
+        font-size: 13px;
+        text-align: center;
+        padding-bottom: 3px;
+        }
+        .footer-lists{
+            display: flex;
+            padding-top: 3px;
+        }
+        footer .list1 {
+        padding: 10px 0px 3px 0px;
+        width: 100px;
+        }
+        footer .list1 h5{
+            font-size: 10px;
+        }
+        footer .list1 ul{
+            padding-right: 10px;
+        width: 140px;
+        }
+        footer .list1 li{
+            padding: 2px;
+            
+        }
+        footer .list1 ul li a{
+            color: rgb(224, 224, 214);
+            font-size: 10px;
+        }
+        footer .list1 ul li a:hover{
+            color: white;
+            scale: 5px;
+        }
+
+        footer .list2 {
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+            footer .list2 ul{
+                margin: 0px 0px 0px 0px;
+                width: 110px;
+            }
+            footer .list2 li{
+                padding: 3px;
+            }
+            footer .list2 ul li a{
+                color: rgb(224, 224, 214);
+                font-size: 10px;
+            }
+            footer .list2 ul li a:hover{
+                color: white;
+                scale: 8px;
+            }
+        
+            footer .list3 ul{
+                margin: 0px 70px 0px 2px;
+                width: 100px;
+                
+            }
+            footer .list3 h5{
+                padding: 6px;
+                margin: 0px 0px 0px 0px;
+                width: 100px;
+                font-size: 10px;
+            }
+            footer .list3 li p{
+                padding: 3px;
+            }
+            footer .list3 ul li p{
+                color: rgb(224, 224, 214);
+                font-size: 10px;
+                padding: 3px;
+            }
+            footer .list3 ul li p:hover{
+                color: white;
+                scale: 8px;
+            }
+
+            footer .list4{
+                position: relative;
+                left: 10px;
+                
+            }
+            footer .list4 h5{
+                padding: 6px;
+                margin: 0px 0px 0px 0px;
+                width: 300px;
+            }
+            footer .list4 li {
+                display: inline;
+            }
+            footer .list4 ul li p{
+                color: rgb(224, 224, 214);
+                font-size: 13px;
+                padding: 3px;
+            }
+            footer .list4 ul li p:hover{
+                color: white;
+                scale: 8px;
+            }
+
+        
+    }
